@@ -1,0 +1,7 @@
+name: Custom Module
+description: This is a custom module.
+type: module
+core_version_requirement: ^8.8.0 || ^9
+
+version: '1.0.0'
+project: 'custom_module'

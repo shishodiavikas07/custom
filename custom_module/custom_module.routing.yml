@@ -1,0 +1,6 @@
+custom_module.content:
+  path: '/page_json/{site_api_key}/{node_id}'
+  defaults:
+    _controller: 'Drupal\custom_module\Controller\NodeJsonResponse::content'
+  requirements:
+    _custom_access: '\Drupal\custom_module\Controller\NodeJsonResponse::access'
